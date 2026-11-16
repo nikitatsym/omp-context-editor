@@ -1,0 +1,20 @@
+{
+  "name": "omp-context-editor",
+  "version": "0.1.0",
+  "description": "omp extension: /edit-context edits, deletes and inserts messages of the current session branch",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "omp": {
+    "extensions": ["./src/index.ts"]
+  },
+  "scripts": {
+    "test": "bun test",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@oh-my-pi/pi-coding-agent": "18.20.2",
+    "@types/bun": "1.4.4",
+    "typescript": "7.0.2"
+  }
+}

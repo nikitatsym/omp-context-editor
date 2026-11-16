@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "preserve",
+		"moduleResolution": "bundler",
+		"strict": true,
+		"noUnusedLocals": true,
+		"noEmit": true,
+		"skipLibCheck": true,
+		"verbatimModuleSyntax": true,
+		"types": ["bun"]
+	},
+	"include": ["src", "test"]
+}
